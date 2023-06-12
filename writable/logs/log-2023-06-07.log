@@ -1,0 +1,46 @@
+CRITICAL - 2023-06-07 06:48:28 --> Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('loginhome')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-06-07 06:50:56 --> Call to undefined function App\Controllers\viw()
+in APPPATH\Controllers\login.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-06-07 07:06:48 --> Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('login')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-06-07 07:16:47 --> Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('login')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+INFO - 2023-06-07 07:38:34 --> CSRF token verified.
+CRITICAL - 2023-06-07 07:38:34 --> Undefined property: App\Controllers\login::$requst
+in APPPATH\Controllers\login.php on line 17.
+ 1 APPPATH\Controllers\login.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\login::$requst', 'C:\\xampp\\htdocs\\ge_pro\\app\\Controllers\\login.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->check()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+INFO - 2023-06-07 07:39:47 --> CSRF token verified.
+CRITICAL - 2023-06-07 07:39:47 --> Undefined property: App\Controllers\login::$requst
+in APPPATH\Controllers\login.php on line 17.
+ 1 APPPATH\Controllers\login.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\login::$requst', 'C:\\xampp\\htdocs\\ge_pro\\app\\Controllers\\login.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->check()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')

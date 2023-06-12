@@ -1,0 +1,231 @@
+ERROR - 2023-05-19 02:39:05 --> mysqli_sql_exception: Table 'tododb.todolist' doesn't exist in D:\ge_pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ge_pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\ge_pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\ge_pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\ge_pro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\ge_pro\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ge_pro\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ge_pro\app\Models\Todolist_model.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\ge_pro\app\Controllers\Todolist.php(18): App\Models\Todolist_model->getActiveTasks()
+#8 D:\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Todolist->index()
+#9 D:\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todolist))
+#10 D:\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ge_pro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ge_pro\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\ge_pro\\publi...')
+#13 {main}
+CRITICAL - 2023-05-19 02:39:05 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 242.
+ 1 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\Todolist_model.php(15): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\Todolist.php(18): App\Models\Todolist_model->getActiveTasks()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Todolist->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todolist))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ge_pro\\public\\index.php')
+ERROR - 2023-05-19 03:33:59 --> mysqli_sql_exception: Table 'tododb.todolist' doesn't exist in C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ge_pro\app\Models\Todolist_model.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ge_pro\app\Controllers\Todolist.php(18): App\Models\Todolist_model->getActiveTasks()
+#8 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Todolist->index()
+#9 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todolist))
+#10 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ge_pro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-19 03:33:59 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 242.
+ 1 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\Todolist_model.php(15): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\Todolist.php(18): App\Models\Todolist_model->getActiveTasks()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Todolist->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todolist))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+ERROR - 2023-05-19 03:35:30 --> mysqli_sql_exception: Table 'tododb.todolist' doesn't exist in C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ge_pro\app\Models\Todolist_model.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ge_pro\app\Controllers\Todolist.php(18): App\Models\Todolist_model->getActiveTasks()
+#8 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Todolist->index()
+#9 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todolist))
+#10 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ge_pro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-19 03:35:30 --> Table 'tododb.todolist' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `todolist`
+WHERE `status` = \'aktif\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `todolist`
+WHERE `status` = \'aktif\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `todolist`
+WHERE `status` = \'aktif\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `todolist`
+WHERE `status` = :status:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Todolist_model.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Todolist.php(18): App\Models\Todolist_model->getActiveTasks()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Todolist->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todolist))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+ERROR - 2023-05-19 03:36:01 --> mysqli_sql_exception: Table 'tododb.todo' doesn't exist in C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ge_pro\app\Models\Todolist_model.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ge_pro\app\Controllers\Todolist.php(18): App\Models\Todolist_model->getActiveTasks()
+#8 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Todolist->index()
+#9 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todolist))
+#10 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ge_pro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ge_pro\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-19 03:36:01 --> Table 'tododb.todo' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `todo`
+WHERE `status` = \'aktif\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `todo`
+WHERE `status` = \'aktif\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `todo`
+WHERE `status` = \'aktif\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `todo`
+WHERE `status` = :status:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Todolist_model.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Todolist.php(18): App\Models\Todolist_model->getActiveTasks()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Todolist->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todolist))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-19 04:41:52 --> Invalid file: "layout/template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('todo/index', [], true)
+ 4 APPPATH\Controllers\Todolist.php(19): view('todo/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Todolist->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todolist))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-19 08:26:12 --> Invalid file: "profil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 3 APPPATH\Controllers\ktp.php(9): view('profil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KTP->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KTP))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-19 08:28:10 --> Invalid file: "profil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 3 APPPATH\Controllers\ktp.php(9): view('profil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KTP->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KTP))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-19 08:29:01 --> Invalid file: "profil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 3 APPPATH\Controllers\ktp.php(9): view('profil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KTP->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KTP))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-19 08:29:04 --> Invalid file: "profil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 3 APPPATH\Controllers\ktp.php(9): view('profil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KTP->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KTP))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-19 08:29:27 --> Invalid file: "profil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 3 APPPATH\Controllers\ktp.php(9): view('profil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KTP->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KTP))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-19 08:29:52 --> Invalid file: "profil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 3 APPPATH\Controllers\ktp.php(9): view('profil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KTP->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KTP))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-19 08:29:54 --> Invalid file: "profil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 3 APPPATH\Controllers\ktp.php(9): view('profil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KTP->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KTP))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-19 08:30:59 --> Invalid file: "profil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 3 APPPATH\Controllers\Ktp.php(9): view('profil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KTP->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KTP))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-19 09:07:25 --> Invalid file: "input.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('input', [], true)
+ 3 APPPATH\Controllers\PesanController.php(14): view('input')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')

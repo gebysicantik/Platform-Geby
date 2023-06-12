@@ -1,0 +1,66 @@
+CRITICAL - 2023-05-25 04:55:17 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\tampilmhs.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tampilmhs', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(18): view('tampilmhs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-25 10:45:19 --> Undefined array key "nama"
+in APPPATH\Controllers\Mahasiswa.php on line 15.
+ 1 APPPATH\Controllers\Mahasiswa.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp\\htdocs\\ge_pro\\app\\Controllers\\Mahasiswa.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-25 10:47:24 --> Undefined array key "NAMA"
+in APPPATH\Controllers\Mahasiswa.php on line 15.
+ 1 APPPATH\Controllers\Mahasiswa.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NAMA"', 'C:\\xampp\\htdocs\\ge_pro\\app\\Controllers\\Mahasiswa.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-25 10:49:03 --> Undefined array key "nama"
+in APPPATH\Controllers\Mahasiswa.php on line 15.
+ 1 APPPATH\Controllers\Mahasiswa.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp\\htdocs\\ge_pro\\app\\Controllers\\Mahasiswa.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-25 10:52:04 --> Undefined array key "nama"
+in APPPATH\Controllers\Mahasiswa.php on line 15.
+ 1 APPPATH\Controllers\Mahasiswa.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp\\htdocs\\ge_pro\\app\\Controllers\\Mahasiswa.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-25 10:54:57 --> Undefined array key "pesan"
+in APPPATH\Controllers\PesanController.php on line 9.
+ 1 APPPATH\Controllers\PesanController.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesan"', 'C:\\xampp\\htdocs\\ge_pro\\app\\Controllers\\PesanController.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-25 10:55:09 --> Undefined array key "pesan"
+in APPPATH\Controllers\PesanController.php on line 9.
+ 1 APPPATH\Controllers\PesanController.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesan"', 'C:\\xampp\\htdocs\\ge_pro\\app\\Controllers\\PesanController.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
+CRITICAL - 2023-05-25 10:55:22 --> Undefined array key "pesan"
+in APPPATH\Controllers\PesanController.php on line 9.
+ 1 APPPATH\Controllers\PesanController.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesan"', 'C:\\xampp\\htdocs\\ge_pro\\app\\Controllers\\PesanController.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ge_pro\\public\\index.php')
